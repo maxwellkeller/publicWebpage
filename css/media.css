@@ -1,0 +1,274 @@
+/* GLOBAL STYLES -------------------------------------------------- */
+@media screen and (max-width: 800px) and (min-width: 620px){
+    .title h1{
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width: 619px) and (min-width: 451px){
+    .title h1{
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .title h1{
+        font-size: 4rem;
+    }
+}
+
+/* .HEADER ----------------------------------------------------------*/
+@media screen and (max-width: 1450px) and (min-width: 1241px){
+    .nameContainer h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1240px) and (min-width: 951px){
+    .nameContainer h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 950px){
+    .nameContainer{
+        width: 40%;
+    }
+    .linksContainer{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 950px) and (min-width: 720px){
+    .nameContainer h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 719px){
+    .nameContainer h1{
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+}
+
+/* NAVBAR ----------------------------------------------------------*/
+@media screen and (max-width: 1650px) and (min-width: 1490px){
+    .navHead h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 1489px) and (min-width: 1340px){
+    .navHead h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 1339px) and (min-width: 900px){
+    .navHead h1{
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width: 899px){
+    .navHead h1{
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1451px){
+    .navbar button{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 1450px) and (min-width: 1190px){
+    .navbar button{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 1189px) and (min-width: 920px){
+    .navbar button{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 919px){
+    /* body{
+        background-position-y: 35%;
+        background-size: 100% 100%;
+    } */
+    header{
+        width: 100%;
+    }
+    nav{
+        z-index: 1;
+        background-color: #111;
+        right: 0;
+        top: 6%;
+        width: 100%;
+        height: 2.5%;
+        padding: 10px;
+        border-left: none;
+    }
+    .navHead{
+        display: none;
+    }
+    .navbar{
+        flex-direction: row;
+    }
+    main{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 919px) and (min-width: 890px){
+    .navbar button{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 889px) and (min-width: 680px){
+    .navbar button{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 679px) and (min-width: 560px){
+    .navbar button{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 559px){
+    .navbar button{
+        font-size: 0.8rem;
+    }
+}
+
+/* HEADER ----------------------------------------------------------*/
+@media screen and (max-width: 2000px) and (min-width: 1701px){
+    .headContainer h1{
+        font-size: 16rem;
+    }
+}
+@media screen and (max-width: 1700px) and (min-width: 1390px){
+    .headContainer h2{
+        font-size: 8rem;
+    }
+    .headContainer h1{
+        font-size: 14rem;
+    }
+}
+@media screen and (max-width: 1389px) and (min-width: 1000px){
+    .headContainer h2{
+        font-size: 6rem;
+    }
+    .headContainer h1{
+        font-size: 10rem;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 670px){
+    .headContainer h2{
+        font-size: 4rem;
+    }
+    .headContainer h1{
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 669px) and (min-width: 400px){
+    .headContainer h2{
+        font-size: 2rem;
+    }
+    .headContainer h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 399px){
+    .headContainer h2{
+        font-size: 2rem;
+    }
+    .headContainer h1{
+        font-size: 3rem;
+    }
+}
+
+/* ABOUT ME */
+@media screen and (max-width: 1800px) and (min-width: 1180px){
+    .aboutP p{
+        font-size: 1.9rem;
+    }
+    .aboutImg img{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1179px) and (min-width: 775px){
+    .aboutP p{
+        font-size: 1.5rem;
+    }
+    .aboutImg img{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 774px){
+    .aboutBody{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutImg img{
+        height: 250px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 774px) and (min-width: 420px){
+    .aboutP p{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 419px){
+    .aboutP p{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 1840px) and (min-width: 1415px){
+    .resContainer button{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1414px) and (min-width: 412px){
+    .resContainer button{
+        font-size: 1.5rem;
+        border-width: 2px;
+    }
+}
+@media screen and (max-width: 411px){
+    .resContainer button{
+        font-size: 1rem;
+        border-width: 2px;
+    }
+}
+
+/* PROJECTS */
+@media screen and (max-width: 2200px) and (min-width: 1571px){
+    .proContainer{
+        grid-template-columns: repeat(3, 350px);
+    }
+}
+@media screen and (max-width: 1570px) and (min-width: 1001px){
+    .proContainer{
+        grid-template-columns: repeat(2, 350px);
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 920px){
+    .proContainer{
+        grid-template-columns: repeat(1, 350px);
+    }
+}
+@media screen and (max-width: 919px) and (min-width: 861px){
+    .proContainer{
+        grid-template-columns: repeat(2, 350px);
+    }
+}
+/* PROJECTS */
+@media screen and (max-width: 860px){
+    .content{
+        width: 90%;
+    }
+    .projects{
+        width: 100%;
+    }
+    .proContainer{
+        width: 95%;
+        grid-template-columns: repeat(1, 350px);
+    }
+}

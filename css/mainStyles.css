@@ -1,0 +1,327 @@
+/* COLORS:
+#293132
+#474044
+#4F5165
+#547AA5
+#50D8D7
+*/
+
+/* BODY -------------------------------------------------------------*/
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 auto;
+    /* Image by rawpixel.com on Freepik https://www.freepik.com/free-vector/modern-desktop-background-geometric-blue-design-vector_18220884.htm#query=website%20background&position=1&from_view=keyword&track=ais&uuid=ed6fbf60-7a4b-4997-ad87-82ccd4784d38 */
+    background-image: url("../img/headBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position-y: 100%; */
+    /* background-size: 85% 100%; */
+    color: #CCC;
+    font-size: 1.6rem;
+    font-family: "Calibri";
+    text-align: center;
+}
+/* GLOBAL STYLES */
+h1, h2, h3, h4, h5, h6{
+    font-family: "Exo", sans-serif;
+}
+.content{
+    background-color: #111;
+    border: 1px solid #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    margin: 50px auto;
+    overflow: hidden;
+    width: 80%;
+    min-height: 70%;
+}
+.title{
+    height: 10%;
+    width: 100%;
+}
+.title h1{
+    text-shadow: 0 0 10px #9ecaed;
+    font-size: 10rem;
+    margin: 0;
+}
+a{
+    color: #CCC;
+    text-decoration: none;
+}
+
+/* HEADER ------------------------------------------------------------*/
+header{
+    background-color: #1c2835;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 6%;
+    width: calc(85% - 5px);
+    z-index: 1;
+}
+.nameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-size: 2rem;
+}
+.nameContainer h1{
+    letter-spacing: 10px;
+}
+.linksContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 70%;
+}
+.linksContainer img{
+    cursor: pointer;
+    /* height: 50px;
+    width: 50px; */
+    margin: 0 20px;
+}
+.gmail:hover{
+    filter: drop-shadow(0px 0px 5px rgb(255, 0, 0));
+}
+.discord:hover{
+    filter: drop-shadow(0px 0px 5px rgb(98, 0, 255));
+}
+
+/* NAV -------------------------------------------------------------*/
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    border-left: 5px solid #CCC;
+    right: 0;
+}
+.navHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1c2835;
+    height: 6%;
+}
+.navHead h1{
+    font-size: 3rem;
+    letter-spacing: 10px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 94%;
+}
+.navbar button{
+    cursor: pointer;
+    background-color: #111;
+    font-size: 3rem;
+    border: none;
+    color: #CCC;
+    width: 100%;
+    height: 100%;
+}
+.navbar button:hover{
+    color: #FFF;
+}
+#selected{
+    /* background-color: #281c35; */
+    text-shadow: 0 0 10px #888;
+}
+
+/* MAIN -------------------------------------------------------------*/
+main{
+    height: 100%;
+    width: 85%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    padding-right: 1%;
+    margin-bottom: 10%;
+    /* visibility: hidden; */
+}
+/* header --------------------------------*/
+section.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: 1%;
+    /* margin-bottom: 20%; */
+}
+.headContainer{
+    width: 80%;
+}
+.head h2{
+    font-size: 10rem;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px #7b52db;
+}
+.headContainer hr{
+    background-color: #CCC;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #888;
+    box-shadow: 0 0 10px #888;
+}
+.head h1{
+    font-size: 20rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 30px #40698a;
+}
+.head p{
+    font-size: 2rem;
+}
+
+/* about me --------------------------------*/
+section.aboutMe{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    /* background-color: #262325; */
+}
+.aboutBody{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 80%;
+}
+.aboutP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 10px;
+}
+.aboutP p{
+    width: 80%;
+    font-size: 2.5rem;
+}
+.aboutImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.aboutImg img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.resContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resContainer form{
+    width: 40%;
+}
+.resContainer button{
+    cursor: pointer;
+    color: #CCC;
+    font-size: 4rem;
+    background-color: transparent;
+    width: 90%;
+    padding: 5px;
+    border: 5px solid #CCC;
+    border-radius: 30px;
+    text-shadow: 0 0 10px #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.resContainer button:hover{
+    box-shadow: 0 0 20px #008cff;
+}
+/* education -------------------------------- */
+section.education{
+    display: flex;
+    flex-direction: column;
+}
+.edSection{
+    border-bottom: 2px solid #CCC;
+}
+/* experience -------------------------------- */
+
+/* projects --------------------------------*/
+/* .projects{
+    height: 100%;
+} */
+.proHead{
+    height: 10%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.proContainer{
+    height: 90%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: 400px;
+    grid-auto-rows: 400px;
+    row-gap: 5%;
+    column-gap: 5%;
+}
+.project{
+    cursor: pointer;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    background-color: #111;
+    border-radius: 20px;
+}
+.project:hover{
+    border: 1px solid #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.proH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #CCC;
+    margin: 0;
+}
+.proH h1{
+    margin: 0;
+}
+.proB{
+    height: 350px;
+    /* background-image: url("../img/image-placeholder-M.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.info{
+    font-size: 2rem;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    height: 330px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
