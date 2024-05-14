@@ -236,6 +236,7 @@ section.aboutMe{
     height: 400px;
     width: 400px;
     border-radius: 50%;
+    box-shadow: 0 0 20px #9ecaed;
 }
 .resContainer{
     width: 100%;
