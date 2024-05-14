@@ -38,9 +38,9 @@ const secArray = [
         "aboutMe",
         `<div class="title aboutHeader"><h1>ABOUT ME</h1></div>
         <div class="aboutBody content">
-            <div class="aboutP">
-                <p>Hello, my name is Max Keller!  I'm an independent programmer currently dedicating my time learning about web design.  I believe that it's important to have a good work ethic where you always dedicate a minimum amount of time to working every day, which was why I was able to go from knowing very little about web design to making a clean and well-animated website like this in under three months.  While doing this, I'm also working a job at HyVee washing dishes, where I learned the importance of making sure that not only everything is in the right place, but also making sure that every dish is spotless.  </p>
-                <p>I currently have an associates degree in Computer Science from Normandale Community College, which gave me some experience with using Python, C, and Java (although as of now I only have minimal knowlege on these).  Overall, I'm a hard worker looking for a job that could give me even more experience than what I already have.</p>
+            <div class="aboutP"><p>
+                Hello, my name is Max Keller!  I'm an Ambitious and career-focused job seeker anxious to obtain an entry-level position for a company related to web design to help me launch my career while achieving company goals. I'm a recent college graduate with excellent research, technical and problem-solving skills. I'm also very detail-oriented and am able to learn new concepts quickly.
+            </p>
                 <div class="resContainer">
                     <form action = "professionalResume.pdf" target = "_blank"><button>RESUME</button></form>
                 </div>
