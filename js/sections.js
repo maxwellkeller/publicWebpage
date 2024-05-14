@@ -43,7 +43,6 @@ const secArray = [
                 <p>I currently have an associates degree in Computer Science from Normandale Community College, which gave me some experience with using Python, C, and Java (although as of now I only have minimal knowlege on these).  Overall, I'm a hard worker looking for a job that could give me even more experience than what I already have.</p>
                 <div class="resContainer">
                     <form action = "https://www.resume.com/resume/builder/b7f9fc62-c988-4ae7-aa4b-dfdb4236bfcc" target = "_blank"><button>RESUME</button></form>
-                    <form action = "" target = "_blank"><button>CONTACT ME</button></form>
                 </div>
             </div>
             <div class="aboutImg">
