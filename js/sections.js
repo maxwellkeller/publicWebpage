@@ -46,7 +46,7 @@ const secArray = [
                 </div>
             </div>
             <div class="aboutImg">
-                <img src="img/image-placeholder-M.jpg" alt="A placeholder image">
+                <img src="img/logo.png" alt="A placeholder image">
             </div>
         </div>`,
         "ABOUT ME",
